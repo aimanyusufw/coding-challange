@@ -30,27 +30,27 @@ export const gap = (g: number, m: number, n: number): null | number[] => {
 // Method : 2
 
 // Other Users Method
-export class G964 {
-  public static gap = (g, m, n) => {
-    let lower = 0;
-    for (let i = m; i < n; i++) {
-      if (G964.isPrime(i)) {
-        if (lower === 0 || i - lower !== g) {
-          lower = i;
-        } else {
-          return [lower, i];
-        }
-      }
-    }
-    return null;
-  };
+// export class G964 {
+//   public static gap = (g, m, n) => {
+//     let lower = 0;
+//     for (let i = m; i < n; i++) {
+//       if (G964.isPrime(i)) {
+//         if (lower === 0 || i - lower !== g) {
+//           lower = i;
+//         } else {
+//           return [lower, i];
+//         }
+//       }
+//     }
+//     return null;
+//   };
 
-  private static isPrime(n) {
-    for (let i = 2; i < n; i++) {
-      if (n % i == 0) {
-        return false;
-      }
-    }
-    return true;
-  }
-}
+//   private static isPrime(n) {
+//     for (let i = 2; i < n; i++) {
+//       if (n % i == 0) {
+//         return false;
+//       }
+//     }
+//     return true;
+//   }
+// }
