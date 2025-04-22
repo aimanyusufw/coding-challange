@@ -1,6 +1,6 @@
 package codewars.challange.kyu6;
 
-// Codewars 12
+// Codewars 14
 // Title :  Maze Runner
 // Instructions :   Your aim is to navigate the maze and reach the finish point without touching any walls
 // Challange Url : https://www.codewars.com/kata/58663693b359c4a6560001d6/train/java
