@@ -1,5 +1,5 @@
 // Codewars 16
-// Title :  Snakes and Leaders
+// Title :  Snakes and Ladders
 // Instructions :   Your task is to make a simple class called SnakesLadders.
 // Challange Url :  https://www.codewars.com/kata/587136ba2eefcb92a9000027/train/javascript
 // Level : 5kyu
