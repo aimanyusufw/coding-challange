@@ -39,3 +39,20 @@ export function sumOfIntervals(intervals: [number, number][]) {
 // Method : 2
 
 // Other Users Method
+// export function sumOfIntervals(intervals: [number, number][]): number {
+//   let sortedIntervals = intervals.sort((first, second) => first[0] - second[0]);
+//   let currentInterval = sortedIntervals[0];
+//   let result = 0;
+//   for (let index = 1; index < sortedIntervals.length; index++) {
+//     if (sortedIntervals[index][0] <= currentInterval[1]) {
+//       currentInterval[1] = Math.max(
+//         sortedIntervals[index][1],
+//         currentInterval[1]
+//       );
+//     } else {
+//       result += currentInterval[1] - currentInterval[0];
+//       currentInterval = sortedIntervals[index];
+//     }
+//   }
+//   return result + currentInterval[1] - currentInterval[0];
+// }
