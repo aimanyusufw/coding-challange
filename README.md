@@ -5,4 +5,4 @@ This is my daily coding challenges to make my computasional thinking will be bet
 Interest to visit my website? you can go here:
 https://aimanyusuf.me
 
-[![My Skills](https://skillicons.dev/icons?i=js,go,ts,py,java)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,go,ts,py,java,dart)](https://skillicons.dev)
